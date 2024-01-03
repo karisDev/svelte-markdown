@@ -1,6 +1,6 @@
 import { onMount } from 'svelte'
 
-export function supressWarnings() {
+export function suppressWarnings() {
   const origWarn = console.warn
 
   console.warn = (message) => {

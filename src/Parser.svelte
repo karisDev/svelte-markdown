@@ -1,5 +1,5 @@
 <script>
-  import { supressWarnings } from './supress-warnings'
+  import { suppressWarnings } from './suppress-warnings'
 
   export let type = undefined
   export let tokens = undefined
@@ -8,7 +8,7 @@
   export let ordered = false
   export let renderers
 
-  supressWarnings();
+  suppressWarnings();
 </script>
 
 {#if !type}
